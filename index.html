@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:cyan;}
+
+.dropbtn {
+	text-align:center;
+    background-color: white;
+    color: red;
+    padding: 16px;
+    font-size: 25px;
+    border: 20%px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: blue;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: lightgreen;}
+
+</style>
+</head>
+
+<div class="dropdown">
+<button class="dropbtn">Types of CSS</button>
+<div class="dropdown-content">
+
+<a href="inline.html">Inline</a>
+<a href="internal.html">Internal</a>
+<a href="external.html">External</a>
+
+</div>
+</div>
+<div>
+CSS is the language we use to style an HTML document.</div>
+</body>
+</html>
